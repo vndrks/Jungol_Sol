@@ -1,0 +1,47 @@
+﻿{
+  "configurations": [
+    {
+      "name": "Linux-Debug-x64",
+      "generator": "Unix Makefiles",
+      "configurationType": "Debug",
+      "cmakeExecutable": "/usr/bin/cmake",
+      "remoteCopySourcesExclusionList": [ ".vs", ".git", "out" ],
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "linux_x64" ],
+      "remoteMachineName": "1080901836;192.168.2.115 (username=vndrks, port=22, authentication=Password)",
+      "remoteCMakeListsRoot": "/mnt/e/Develop/AZ/${projectDirName}",
+      "remoteBuildRoot": "/mnt/e/Develop/AZ/${projectDirName}/out/build/${name}",
+      "remoteInstallRoot": "/mnt/e/Develop/AZ/${projectDirName}/${workspaceHash}/out/install/${name}",
+      "remoteCopySources": true,
+      "rsyncCommandArgs": "-t --delete --delete-excluded",
+      "remoteCopyBuildOutput": false,
+      "remoteCopySourcesMethod": "rsync",
+      "addressSanitizerRuntimeFlags": "detect_leaks=0",
+      "variables": []
+    },
+    {
+      "name": "Linux-Release-x64",
+      "generator": "Unix Makefiles",
+      "configurationType": "Release",
+      "cmakeExecutable": "/usr/bin/cmake",
+      "remoteCopySourcesExclusionList": [ ".vs", ".git", "out" ],
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "inheritEnvironments": [ "linux_x64" ],
+      "variables": [],
+      "remoteMachineName": "1080901836;192.168.2.115 (username=vndrks, port=22, authentication=Password)",
+      "remoteCMakeListsRoot": "/mnt/e/Develop/AZ/${projectDirName}",
+      "remoteBuildRoot": "/mnt/e/Develop/AZ/${projectDirName}/out/build/${name}",
+      "remoteInstallRoot": "/mnt/e/Develop/AZ/${projectDirName}/${workspaceHash}/out/install/${name}",
+      "remoteCopySources": true,
+      "rsyncCommandArgs": "-t --delete --delete-excluded",
+      "remoteCopyBuildOutput": false,
+      "remoteCopySourcesMethod": "rsync",
+      "addressSanitizerRuntimeFlags": "detect_leaks=0",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ]
+}
