@@ -11,22 +11,33 @@ int Code1856::Solution()
 
 	int arr[n][m];
 
-	for (int height = 0; height < n; ++height)
+	int number = 1;
+	for (int hPos = 0; hPos < n; ++hPos)
 	{
-		if ((height % 2 == 0))	// Â¦¼öÇà
+		if ((hPos % 2 == 0))	// even num
 		{
-			for (int w = m; w >= 1; --w)
+			for (int wPos = 0; wPos < m; ++wPos, ++number)
 			{
-				arr[height][w] = w * m;
+				arr[hPos][wPos] = number;
 			}
 		}
-		else					// È¦¼öÇà
+		else					// odd num
 		{
-			for (int w = 0; w < m; ++w)
+			for (int wPos = m - 1; wPos >= 0; --wPos, ++number)
 			{
-				arr[height][w] = w * m;
+				arr[hPos][wPos] = number;
 			}
 		}
 	}
+
+	for (int i = 0; i < sizeof(arr) / sizeof(arr[0]); ++i)
+	{
+		for (int j = 0; j < sizeof(arr[i]) / sizeof(int); ++j)
+		{
+			printf("%d ", arr[i][j]);
+		}
+		printf("\n");
+	}
+
 	return 0;
 }

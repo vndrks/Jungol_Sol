@@ -4,6 +4,16 @@
 #include "Code1341.h"
 #include "Code1303.h"
 #include "Code1856.h"
+#include "Code1304.h"
+#include "Code2046.h"
+#include "Code1307.h"
+#include "Code1314.h"
+#include "Code1523.h"
+#include "Code1719.h"
+#include "Code1329.h"
+#include "Code1641.h"
+#include "Code1337.h"
+#include "Code1338.h"
 
 int main(int argc, char* argv[])
 {
@@ -18,7 +28,38 @@ int main(int argc, char* argv[])
 	//Code1303 code1303;
 	//code1303.Solution();
 
-	Code1856 code1856;
-	code1856.Solution();
+	//Code1856 code1856;
+	//code1856.Solution();
+
+	//Code1304 code1304;
+	//code1304.Solution();
+
+	//Code2046 code2046;
+	//code2046.Solution();
+
+	//Code1307 code1307;
+	//code1307.Solution();
+
+	//Code1314 code1314;
+	//code1314.Solution();
+
+	//Code1523 code1523;
+	//code1523.Solution();
+
+	//Code1719 code1719;
+	//code1719.Solution();
+
+	//Code1329 code1329;
+	//code1329.Solution();
+
+	//Code1641 code1641;
+	//code1641.Solution();
+
+	//Code1337 code1337;
+	//code1337.Solution();
+
+	Code1338 code1338;
+	code1338.Solution();
+
 	return 0;
 }

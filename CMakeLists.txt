@@ -16,6 +16,16 @@ include_directories (
 	"Improve_Skills/Code1341/"
 	"Improve_Skills/Code1303/"
 	"Improve_Skills/Code1856/"
+	"Improve_Skills/Code1304/"
+	"Improve_Skills/Code2046/"
+	"Improve_Skills/Code1307/"
+	"Improve_Skills/Code1314/"
+	"Improve_Skills/Code1523/"
+	"Improve_Skills/Code1719/"
+	"Improve_Skills/Code1329/"
+	"Improve_Skills/Code1641/"
+	"Improve_Skills/Code1337/"
+	"Improve_Skills/Code1338/"
 )
 target_compile_features(MainApp PRIVATE cxx_range_for)
 target_link_libraries(MainApp LINK_PUBLIC Improve_Skills)
