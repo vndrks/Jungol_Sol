@@ -14,11 +14,12 @@
 #include "Code1641.h"
 #include "Code1337.h"
 #include "Code1338.h"
+#include "Code1339.h"
+#include "Code2071.h"
+#include "Code1707.h"
 
 int main(int argc, char* argv[])
 {
-	printf("Test T1T\n");
-
 	//Code1291 code1291;
 	//code1291.Solution();
 
@@ -58,8 +59,27 @@ int main(int argc, char* argv[])
 	//Code1337 code1337;
 	//code1337.Solution();
 
-	Code1338 code1338;
-	code1338.Solution();
+	//Code1338 code1338;
+	//code1338.Solution();
 
+	//Code1339 code1339;
+	//code1339.Solution();
+
+	//Code2071 code2071;
+	//code2071.Solution();
+
+	Code1707 code1707;
+	code1707.Solution();
 	return 0;
 }
+
+// {0, 0} > {0, 1} > {0, 2} > {0, 3} > {0, 4}
+// {1, 4} v {2, 4} v {3, 4} v {4, 4} 
+// {4, 3} < {4, 2} < {4, 1} < {4, 0}
+// {3, 0} ^ {2, 0} ^ {1, 0}
+// {1, 1} > {1, 2} > {1, 3}
+// {2, 3} v {3, 3}
+// {3, 2} < {3, 1}
+// {2, 1}
+// {2, 2}
+// > v < ^

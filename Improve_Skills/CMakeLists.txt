@@ -20,6 +20,9 @@ file(GLOB HEADER_FILE
 	./Code1641/Code1641.h
 	./Code1337/Code1337.h
 	./Code1338/Code1338.h
+	./Code1339/Code1339.h
+	./Code2071/Code2071.h
+	./Code1707/Code1707.h
 )
 file(GLOB SOURCE_FILE
 	./Code1291/Code1291.cpp
@@ -35,6 +38,9 @@ file(GLOB SOURCE_FILE
 	./Code1641/Code1641.cpp
 	./Code1337/Code1337.cpp
 	./Code1338/Code1338.cpp
+	./Code1339/Code1339.cpp
+	./Code2071/Code2071.cpp
+	./Code1707/Code1707.cpp
 )
 
 set(Module_IMPROVE_SKILLS ${HEADER_FILE} ${SOURCE_FILE})
